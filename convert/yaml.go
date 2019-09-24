@@ -5,9 +5,9 @@ import (
 	"io"
 	"math"
 
-	goyaml "gopkg.in/yaml.v2"
+	goyaml "github.com/richmondwang/yaml"
 
-	"github.com/sclevine/yj/yaml"
+	" github.com/richmondwang/yj/yaml"
 )
 
 type YAML struct {
@@ -21,8 +21,10 @@ func (YAML) String() string {
 }
 
 func (y YAML) Encode(w io.Writer, in interface{}) error {
+	_enc := goyaml.NewEncoder(w)
+	_enc.e.SetLineWidth(-1)
 	encoder := &yaml.Encoder{
-		EncodeYAML: goyaml.NewEncoder(w).Encode,
+		EncodeYAML: _enc.Encode,
 	}
 	if y.FloatStrings {
 		encoder.NaN = "NaN"

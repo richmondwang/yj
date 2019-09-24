@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/sclevine/yj/yaml"
+	" github.com/richmondwang/yj/yaml"
 )
 
 func TestDecoderPanics(t *testing.T) {

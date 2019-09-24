@@ -1,7 +1,7 @@
 # yj
 
 [![Build Status](https://travis-ci.org/sclevine/yj.svg?branch=master)](https://travis-ci.org/sclevine/yj)
-[![GoDoc](https://godoc.org/github.com/sclevine/yj?status.svg)](https://godoc.org/github.com/sclevine/yj)
+[![GoDoc](https://godoc.org/ github.com/richmondwang/yj?status.svg)](https://godoc.org/ github.com/richmondwang/yj)
 
 Convert between YAML, TOML, JSON, and HCL.
 

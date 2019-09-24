@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	goyaml "gopkg.in/yaml.v2"
+	goyaml "github.com/richmondwang/yaml"
 
-	"github.com/sclevine/yj/yaml"
+	" github.com/richmondwang/yj/yaml"
 )
 
 func TestEncoder(t *testing.T) {

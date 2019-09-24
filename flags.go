@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sclevine/yj/convert"
+	" github.com/richmondwang/yj/convert"
 )
 
 type Config struct {

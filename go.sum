@@ -3,6 +3,10 @@ github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/hashicorp/hcl v1.0.0 h1:0Anlzjpi4vEasTeNFn2mLJgTSwt0+6sfsiTG8qcWGx4=
 github.com/hashicorp/hcl v1.0.0/go.mod h1:E5yfLk+7swimpb2L/Alb/PJmXilQ/rhwaUYs4T20WEQ=
+github.com/richmondwang/yaml v0.0.0-20190924085918-0bf4a1d885ee h1:G2hKOOnsz9VlGRJr9Z/Xd6D/cEzzTPvH0r7TDPR2dhA=
+github.com/richmondwang/yaml v0.0.0-20190924085918-0bf4a1d885ee/go.mod h1:F/re5VQMiXIVh8fl7Y7WeXTSMSqK2OBuP63wKgADkgU=
+github.com/richmondwang/yaml v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
+github.com/sclevine/yj v0.0.0-20190506050358-d9a48607cc5c h1:ZM1w5i/K6P9cSphFp+V4ZVP+5X1RqO5qnm/1mLxBoJU=
+github.com/sclevine/yj v0.0.0-20190506050358-d9a48607cc5c/go.mod h1:08t/bkpv3w2Ghv5p7V7nM5TTHnIghZgwhXL2PThsEPE=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
-gopkg.in/yaml.v2 v2.2.2 h1:ZCJp+EgiOT7lHqUV2J862kp8Qj64Jo6az82+3Td9dZw=
-gopkg.in/yaml.v2 v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
+gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
