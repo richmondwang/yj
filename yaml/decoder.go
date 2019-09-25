@@ -27,6 +27,12 @@ func (d *Decoder) JSON() (json interface{}, err error) {
 
 func (d *Decoder) jsonify(in interface{}) interface{} {
 	switch in := in.(type) {
+	case map[string]interface{}:
+		out := map[string]interface{}{}
+		for k, v := range in {
+			out[d.jsonifyKey(k)] = d.jsonify(v)
+		}
+		return out
 	case map[interface{}]interface{}:
 		out := map[string]interface{}{}
 		for k, v := range in {

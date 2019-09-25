@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	main " github.com/richmondwang/yj"
+	main "github.com/richmondwang/yj"
 )
 
 func TestRunWhenArgsFailToParse(t *testing.T) {

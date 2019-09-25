@@ -7,7 +7,7 @@ import (
 
 	goyaml "github.com/richmondwang/yaml"
 
-	" github.com/richmondwang/yj/yaml"
+	"github.com/richmondwang/yj/yaml"
 )
 
 func TestEncoder(t *testing.T) {

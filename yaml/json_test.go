@@ -3,7 +3,7 @@ package yaml_test
 import (
 	"testing"
 
-	" github.com/richmondwang/yj/yaml"
+	"github.com/richmondwang/yj/yaml"
 )
 
 func TestJSONMarshal(t *testing.T) {

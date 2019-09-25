@@ -7,7 +7,7 @@ import (
 
 	goyaml "github.com/richmondwang/yaml"
 
-	" github.com/richmondwang/yj/yaml"
+	"github.com/richmondwang/yj/yaml"
 )
 
 type YAML struct {
@@ -22,7 +22,7 @@ func (YAML) String() string {
 
 func (y YAML) Encode(w io.Writer, in interface{}) error {
 	_enc := goyaml.NewEncoder(w)
-	_enc.e.SetLineWidth(-1)
+	_enc.SetLineLength(-1)
 	encoder := &yaml.Encoder{
 		EncodeYAML: _enc.Encode,
 	}

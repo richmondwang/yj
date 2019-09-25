@@ -6,7 +6,7 @@ import (
 	"math"
 	"testing"
 
-	" github.com/richmondwang/yj/yaml"
+	"github.com/richmondwang/yj/yaml"
 )
 
 func TestDecoder(t *testing.T) {

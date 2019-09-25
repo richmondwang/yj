@@ -3,8 +3,8 @@ package main_test
 import (
 	"testing"
 
-	" github.com/richmondwang/yj"
-	" github.com/richmondwang/yj/convert"
+	"github.com/richmondwang/yj"
+	"github.com/richmondwang/yj/convert"
 )
 
 func TestParse(t *testing.T) {
